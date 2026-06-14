@@ -89,7 +89,7 @@ def mostrar_tabuleiro(baralho, encontradas, viradas):
     linha = ""
     for i in range(len(baralho)):
         if i in encontradas or i in viradas:
-            linha = linha + " [" + baralho[i][2] + "] "
+            linha = linha + " [" + baralho[i][1] + "] "
         else:
             linha = linha + " (" + str(i) + ") "
     print(linha)

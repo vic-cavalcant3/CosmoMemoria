@@ -129,8 +129,10 @@ body{
   transform:rotateY(180deg); gap:4px;
   background:linear-gradient(160deg, #20276a, #161b48);
 }
-.carta-frente .emoji{ font-size:clamp(26px, 7vw, 40px); line-height:1; }
-.carta-frente .nome{ font-size:clamp(9px, 2.4vw, 12px); color:var(--suave); }
+.carta-frente .icone{ width:52%; max-width:46px; line-height:0; }
+.carta-frente .icone img,
+.carta-frente .icone svg{ width:100%; height:auto; display:block; }
+.carta-frente .nome{ font-size:clamp(9px, 2.4vw, 12px); color:var(--suave); margin-top:5px; }
 
 .carta:hover .carta-inner{ box-shadow:0 0 22px rgba(70,214,240,.25); border-radius:14px; }
 .carta.encontrada .carta-frente{
