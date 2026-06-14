@@ -10,22 +10,23 @@
 #   - Fatiamento de lista (igual ao n[0:2] visto em Strings/Listas)
 # ============================================================
 
-# Cada carta e uma TUPLA no formato: (id, nome, simbolo)
+# Cada carta e uma TUPLA no formato: (id, nome, icone)
+# "icone" e so a CHAVE do desenho (o SVG fica no front-end).
 # Usamos tupla porque uma carta NUNCA muda (a aula falou que tupla e imutavel).
 # Todas as cartas ficam dentro de uma LISTA.
 ASTROS = [
-    (1,  "Sol",             "☀️"),
-    (2,  "Terra",           "🌍"),
-    (3,  "Lua",             "🌙"),
-    (4,  "Saturno",         "🪐"),
-    (5,  "Estrela",         "⭐"),
-    (6,  "Cometa",          "☄️"),
-    (7,  "Foguete",         "🚀"),
-    (8,  "Galáxia",         "🌌"),
-    (9,  "Disco voador",    "🛸"),
-    (10, "Astronauta",      "👨‍🚀"),
-    (11, "Estrela cadente", "🌠"),
-    (12, "Brilho",          "✨"),
+    (1,  "Sol",             "sol"),
+    (2,  "Terra",           "terra"),
+    (3,  "Lua",             "lua"),
+    (4,  "Saturno",         "saturno"),
+    (5,  "Estrela",         "estrela"),
+    (6,  "Cometa",          "cometa"),
+    (7,  "Foguete",         "foguete"),
+    (8,  "Galáxia",         "galaxia"),
+    (9,  "Disco voador",    "ovni"),
+    (10, "Astronauta",      "astronauta"),
+    (11, "Estrela cadente", "cadente"),
+    (12, "Brilho",          "brilho"),
 ]
 
 
