@@ -60,8 +60,8 @@ def virar():
     # O servidor (Python) e quem sabe a resposta.
     dados = request.get_json()
     posicao = dados.get("posicao", 0)
-    carta = estado["baralho"][posicao]          # carta = (id, nome, simbolo)
-    return jsonify({"nome": carta[1], "simbolo": carta[2]})
+    carta = estado["baralho"][posicao]          # carta = (id, nome, icone)
+    return jsonify({"nome": carta[1], "icone": carta[2]})
 
 
 @app.route("/api/verificar", methods=["POST"])
